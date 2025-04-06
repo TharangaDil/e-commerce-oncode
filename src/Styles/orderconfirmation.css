@@ -1,0 +1,64 @@
+.order-confirmation {
+    padding: 100px 150px;
+    font-family: sans-serif;
+    color: #000;
+  }
+  
+  .thank-you {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .order-id {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .order-id span {
+    font-weight: 500;
+  }
+  .order-data{
+    margin-left: 100px;
+
+  }
+  .order-details-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .order-details, .customer-details {
+    max-width: 45%;
+  }
+  
+  .order-details h4, .customer-details h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .order-details p,
+  .customer-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .customer-data{
+    margin-left: 100px;
+  }
+  .shop-btn {
+    background-color: #2a00b8;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 90%;
+  }
+  
+  .shop-btn:hover {
+    background-color: #1e008c;
+  }
+  

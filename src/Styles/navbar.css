@@ -1,0 +1,80 @@
+.top-nav {
+    background-color: #0026a0;
+    color: white;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .search-bar {
+    display: flex;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 6px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background: #ddd;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .nav-links a {
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .bottom-nav {
+    background-color: #ffc107;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 24px;
+    font-weight: bold;
+  }
+  
+  .nav-categories a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-categories a:hover {
+    text-decoration: underline;
+  }
+  
+  .action-buttons button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background: #f0f0f0;
+  }
+  
